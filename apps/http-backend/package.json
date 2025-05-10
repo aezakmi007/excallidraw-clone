@@ -8,11 +8,14 @@
     "build": "tsc -b",
     "dev": "npm run build && npm run start"
   },
-
   "devdependencies": {
     "@repo/typescript-config": "workspace:*"
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "@types/express": "^5.0.1",
+    "express": "^5.1.0"
+  }
 }
